@@ -25,7 +25,8 @@ Paste in the code into the outcome run script action:
 > [!NOTE]
 > If you want to run this from Alfred using a workflow you will need the paid for power pack.
 
-
+> [!WARNING]
+> Once you start one of theses scripts it will keep running until you pull your mouse to the corner of the screen. This is an auto hot key setting that is configurable. Keep this in mind if you want to get ambitious with the size of your drawings. 
 
 ## How:
 If you want to make your own drawings feel free to create a PR and add it here. 

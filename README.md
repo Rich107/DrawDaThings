@@ -28,9 +28,21 @@ The current drawings were first drafted using ChatGPT. Initially the drawings di
 ## Troubleshooting:
 
 ### Mouse is jumping
+This might be because you are not giving the cursor enough time to register its click in between actions. 
+When making the smily faces I found that it would stay clicked down or miss things out if this was set to 0 all the time.
+Try giving it a little more time by changing the below setting:
 
-
+``` python
+pyautogui.PAUSE = 0.1
+```
 
 ### Mouse is moving really slowly
 -  Reduce the number of points being generated. 
--  Change the gap between actions to zero or a very low number 
+-  Change the gap between actions to zero or a very low number.
+
+``` python
+pyautogui.PAUSE = 0.1
+```
+
+> [!Tip]
+> Try changing this setting at different stages of the drawing to see what makes the most consistent outcome. 

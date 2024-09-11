@@ -5,7 +5,7 @@ When using screen sharing tools like Zoom and Slack they allow you to write on t
 
 Example smiley in Miro:
 <p align="center">
-<img width="485" alt="image" src="https://github.com/user-attachments/assets/484d84a4-e604-4fb3-8f33-22a122c8bc07">
+    <img width="485" alt="image" src="https://github.com/user-attachments/assets/484d84a4-e604-4fb3-8f33-22a122c8bc07">
 </p>
 
 ## Install:
@@ -18,14 +18,20 @@ python3 -m pip install pyautogui
 If running from Alfred, it has access to your host python. So if you are running it using Alfred you will need to install it on your host python.  
 
 Go to workflows, create new workflow. Pull in a 'hot key' trigger and 'run script' command and link them together:
-<p align="center"><img width="925" alt="image" src="https://github.com/user-attachments/assets/76e3e947-8fee-4804-9188-9afc3bdb6b32"></p>
+<p align="center">
+    <img width="925" alt="image" src="https://github.com/user-attachments/assets/76e3e947-8fee-4804-9188-9afc3bdb6b32">
+</p>
 
 Click on the hot key and press the set of keys you want to run your script:
-<img width="537" alt="image" src="https://github.com/user-attachments/assets/3c8b178d-2155-44af-8541-4fd5ea9ba81d">
+<p align="center">
+    <img width="537" alt="image" src="https://github.com/user-attachments/assets/3c8b178d-2155-44af-8541-4fd5ea9ba81d">
+</p>
+
 
 Paste in the code into the outcome run script action:
-<img width="808" alt="image" src="https://github.com/user-attachments/assets/ec61c26e-5506-44f2-9d88-e8afa72f7768">
-
+<p align="center">
+    <img width="808" alt="image" src="https://github.com/user-attachments/assets/ec61c26e-5506-44f2-9d88-e8afa72f7768">
+</p>
 
 > [!NOTE]
 > If you want to run this from Alfred using a workflow you will need the paid for power pack.

@@ -12,7 +12,15 @@ python3 -m pip install pyautogui
 
 If running from Alfred, it has access to your host python. So if you are running it using Alfred you will need to install it on your host python.  
 
-Screen shot for workflows menu
+Got to workflows, create new workflow. Pull in a hotkey and run scripe command and link them togeather:
+<img width="925" alt="image" src="https://github.com/user-attachments/assets/76e3e947-8fee-4804-9188-9afc3bdb6b32">
+
+Click on the hot key and press the set of keys you want to run your script:
+<img width="537" alt="image" src="https://github.com/user-attachments/assets/3c8b178d-2155-44af-8541-4fd5ea9ba81d">
+
+Paste in the code into the outcome run script action:
+<img width="808" alt="image" src="https://github.com/user-attachments/assets/ec61c26e-5506-44f2-9d88-e8afa72f7768">
+
 
 > [!NOTE]
 > If you want to run this from Alfred using a workflow you will need the paid for power pack.

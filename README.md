@@ -3,6 +3,11 @@
 ## Why:
 When using screen sharing tools like Zoom and Slack they allow you to write on the screen. Primarily this is used to highlight areas of interest but it can also be fun to draw to communicate without interrupting people who are currently talking.
 
+Example smiley in Miro:
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/484d84a4-e604-4fb3-8f33-22a122c8bc07">
+
+
 ## Install:
 `pyautogui` needs to be installed on the python interpreter that you are going to be running it from. 
 

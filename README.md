@@ -61,7 +61,7 @@ pyautogui.PAUSE = 0.1
 -  Change the gap between actions to zero or a very low number.
 
 ``` python
-pyautogui.PAUSE = 0.1
+pyautogui.PAUSE = 0
 ```
 
 > [!Tip]

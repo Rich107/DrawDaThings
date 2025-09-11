@@ -27,7 +27,7 @@ pyautogui.PAUSE = 0.1
 pyautogui.mouseUp()
 
 # Draw the tick mark
-tick_size = 40
+tick_size = 80
 
 # Draw the first part of the tick (shorter line going down-left to center)
 pyautogui.moveTo(center_x - tick_size//2, center_y)

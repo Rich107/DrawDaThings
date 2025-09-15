@@ -10,19 +10,19 @@ time.sleep(0)
 # Get the current mouse position
 center_x, center_y = pyautogui.position()
 
-# Draw the tick mark
-tick_size = 80
+# Draw the X mark
+x_size = 80
 
-# Draw the first part of the tick (shorter line going down-left to center)
-pyautogui.moveTo(center_x - tick_size//2, center_y)
+# Draw the first diagonal line of the X (top-left to bottom-right)
+pyautogui.moveTo(center_x - x_size//2, center_y - x_size//2)
 pyautogui.mouseDown()
-pyautogui.moveTo(center_x - tick_size//4, center_y + tick_size//3)
+pyautogui.moveTo(center_x + x_size//2, center_y + x_size//2)
 pyautogui.mouseUp()
 
-# Draw the second part of the tick (longer line going from center up-right)
-pyautogui.moveTo(center_x - tick_size//4, center_y + tick_size//3)
+# Draw the second diagonal line of the X (top-right to bottom-left)
+pyautogui.moveTo(center_x + x_size//2, center_y - x_size//2)
 pyautogui.mouseDown()
-pyautogui.moveTo(center_x + tick_size//2, center_y - tick_size//2)
+pyautogui.moveTo(center_x - x_size//2, center_y + x_size//2)
 pyautogui.mouseUp()
 
 # Draw the face circle
@@ -40,4 +40,3 @@ for i in range(0, 361, 2):
 
 pyautogui.PAUSE = 0.1
 pyautogui.mouseUp()
-

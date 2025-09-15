@@ -15,18 +15,25 @@ square_size = 200
 # Draw top line
 pyautogui.moveTo(center_x - square_size//2, center_y - square_size//2)
 pyautogui.mouseDown()
-pyautogui.moveTo(center_x + square_size//2, center_y - square_size//2)
+pyautogui.moveTo(center_x + square_size//2, center_y - square_size//2, duration=0.125)
+pyautogui.mouseUp()
 
 # Draw right line
-pyautogui.moveTo(center_x + square_size//2, center_y + square_size//2)
+pyautogui.moveTo(center_x + square_size//2, center_y - square_size//2)
+pyautogui.mouseDown()
+pyautogui.moveTo(center_x + square_size//2, center_y + square_size//2, duration=0.125)
+pyautogui.mouseUp()
 
 # Draw bottom line
-pyautogui.moveTo(center_x - square_size//2, center_y + square_size//2)
+pyautogui.moveTo(center_x + square_size//2, center_y + square_size//2)
+pyautogui.mouseDown()
+pyautogui.moveTo(center_x - square_size//2, center_y + square_size//2, duration=0.125)
+pyautogui.mouseUp()
 
 # Draw left line
-pyautogui.moveTo(center_x - square_size//2, center_y - square_size//2)
-
-pyautogui.PAUSE = 0.1
+pyautogui.moveTo(center_x - square_size//2, center_y + square_size//2)
+pyautogui.mouseDown()
+pyautogui.moveTo(center_x - square_size//2, center_y - square_size//2, duration=0.125)
 pyautogui.mouseUp()
 
 print("Square drawn!")
